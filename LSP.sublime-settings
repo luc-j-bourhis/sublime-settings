@@ -1,0 +1,19 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "clients": {
+    "ocaml": {
+      "enabled": true,
+      "command": ["opam", "exec", "--switch", ".", "--", "ocamllsp"],
+      "selector": "source.ocaml | source.ocamllex | source.camlp4.ocaml"
+    },
+    "swift": {
+      "enabled": true,
+      "command": ["/usr/bin/fish", "-c", "sourcekit-lsp"],
+      "selector": "source.swift"
+    }
+
+  },
+
+  // optional quality-of-life:
+  "lsp_format_on_save": true
+}

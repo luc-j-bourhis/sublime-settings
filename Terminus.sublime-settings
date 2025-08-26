@@ -1,0 +1,16 @@
+{
+	"default_config": {
+		"linux": "Fish",
+		"osx": "Fish",
+		"windows": "Powershell",
+	},
+	"shell_configs": [
+		{
+			"name": "Fish",
+			"cmd": ["/usr/bin/fish", "-i"],
+			"enable": true,
+			"platforms": ["linux", "osx"],
+		}
+	],
+    "brighten_bold_text": false,
+}
