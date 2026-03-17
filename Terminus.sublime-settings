@@ -1,0 +1,16 @@
+{
+	"default_config": {
+		"osx": "Fish",
+		"linux": "Fish",
+	},
+	"shell_configs": [
+		{
+			"name": "Fish",
+			"cmd": "/opt/local/bin/fish",
+			"env": {},
+			"enable": true,
+			"platform": ["linux", "osx"],
+		}
+	],
+	"theme": "adaptive",
+}

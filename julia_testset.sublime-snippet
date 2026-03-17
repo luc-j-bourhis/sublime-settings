@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@testset "${1:title}" begin
+	${2:tests}
+end
+]]></content>
+<tabTrigger>@testset</tabTrigger>
+<scope>source.julia</scope>
+</snippet>
