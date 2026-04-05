@@ -1,5 +1,9 @@
 // These settings override both User and Default settings for the Julia syntax
 {
 	"word_wrap": true,
-	"rulers": [100]
+	"rulers": [100],
+	"extensions":
+	[
+		"jl",
+	],
 }
