@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Decent Swift Syntax",
+		"fish",
+		"LaTeXTools",
+		"LSP",
+		"LSP-julia",
+		"Package Control",
+		"SendCode",
+		"Terminus",
+	],
+	"channels":
+	[
+		"https://packages.sublimetext.io/channel.json",
+	],
+}
