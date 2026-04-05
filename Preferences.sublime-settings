@@ -1,7 +1,7 @@
 {
 	"color_scheme": "auto",
-	"dark_color_scheme": "Monokai.sublime-color-scheme",
-	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"dark_color_scheme": "Wing Pro Monokai.sublime-color-scheme",
+	"light_color_scheme": "Wing Pro Classic.sublime-color-scheme",
 	//"highlight_line": true,
 	"ignored_packages":
 	[
