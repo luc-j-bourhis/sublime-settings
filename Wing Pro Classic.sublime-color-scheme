@@ -1,0 +1,73 @@
+{
+    "name": "Wing IDE Classic",
+    "variables": {
+        "black": "black",
+        "white": "white",
+        "blueberry": "#0433FF",
+        "midnight": "#011993",
+        "teal": "#009193",
+        "cayenne": "#941100",
+        "fern": "#4F8F00",
+        "ocean": "#005493",
+        "mocha": "#945200",
+        "eggplant": "#531B93",
+        "maroon": "#941751",
+    },
+    "globals": {
+        "selection": "#F9EAC3", // MacOS Tahoe Notes (multicolour scheme, automatic text highlight)
+        "background": "white",
+        "foreground": "black",
+        "caret": "black",
+    },
+    "rules": [
+        {
+            "scope": "entity.name.struct",
+            "foreground": "color(var(blueberry))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "entity.name.function",
+            "foreground": "color(var(teal))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "keyword.declaration, keyword.control, keyword.other",
+            "foreground": "color(var(midnight))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "keyword.operator",
+            "font_style": "bold",
+        },
+        {
+            "scope": "comment.block",
+            "foreground": "color(var(cayenne))",
+        },
+        {
+            "scope": "comment.line",
+            "foreground": "color(var(fern))",
+        },
+        {
+            "scope": "support.function, constant, support.type",
+            "foreground": "color(var(ocean))",
+        },
+        {
+            "scope": "string",
+            "foreground": "color(var(maroon))",
+        },
+        {
+            "scope": "punctuation.section",
+            "foreground": "color(black)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "punctuation.definition.macro, variable.macro, variable.macro support.function",
+            "foreground": "color(var(mocha))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "meta.mapping.key string.quoted",
+            "foreground": "color(var(eggplant))",
+        },
+    ]
+}

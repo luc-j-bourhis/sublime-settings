@@ -1,0 +1,86 @@
+{
+    "name": "Wing IDE Classic",
+    "variables": {
+        "black": "black",
+        "white": "white",
+        "strawberry": "#FF2F92",
+        "spring": "#00F900",
+        "cantaloupe": "#FFD479",
+        "aqua": "#0096FF",
+        "mocha": "#945200",
+        "salmon": "#FF7E79",
+        "sky": "#76D6FF",
+        "flora": "#73FA79",
+        "lavender": "#D783FF",
+        "honeydew": "#D4FB79",
+        //"grape": "#9437FF",
+        //"lime": "#8EFA00",
+        //"orchid": "#7A81FF",
+        //"fern": "#4F8F00",
+        //"seafoam": "#00F900",
+        //"spindrift": "#73FCD6",
+    },
+    "globals": {
+        // A bit darker than MacOS Tahoe (multicolour scheme, automatic text highlight)
+        "selection": "#695A3A",
+        "background": "#1E1E1E",
+        "foreground": "white",
+        "caret": "white",
+    },
+    "rules": [
+        {
+            "scope": "entity.name.struct",
+            "foreground": "color(var(aqua))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "entity.name.function",
+            "foreground": "color(var(flora))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "keyword.declaration, keyword.control, keyword.other",
+            "foreground": "color(var(strawberry))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "keyword.operator",
+            "font_style": "bold",
+        },
+        {
+            "scope": "comment.block",
+            "foreground": "color(var(cantaloupe))",
+        },
+        {
+            "scope": "comment.line",
+            "foreground": "color(var(honeydew))",
+        },
+        {
+            "scope": "support.function, constant, support.type",
+            "foreground": "color(var(sky))",
+        },
+        {
+            "scope": "string",
+            "foreground": "color(var(salmon))",
+        },
+        {
+            "scope": "punctuation.section",
+            "foreground": "color(white)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "punctuation.definition.macro, variable.macro, variable.macro support.function",
+            "foreground": "color(var(mocha))",
+            "font_style": "bold",
+        },
+        {
+            "scope": "meta.mapping.key string.quoted",
+            "foreground": "color(var(lavender))",
+        },
+        {
+            "class": "quick_panel_detail_label",
+            // such as repository links in "Package Control: List Packages"
+            "foreground": "color(var(white))",
+        },
+    ]
+}
