@@ -1,0 +1,7 @@
+// Settings in here override those in "LaTeXTools/LaTeXTools.sublime-settings"
+{
+	"builder_settings" : {
+    	//"options": ["--shell-escape"],
+    },
+    "keep_focus": false,
+}

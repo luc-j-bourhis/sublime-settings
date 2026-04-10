@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+set(options${1})
+set(scalars${2})
+set(lists${3})
+cmake_parse_arguments(ARG "\${options}" "\${scalars}" "\${lists}" 
+	                  \${ARGN})
+]]></content>
+<tabTrigger>argparse</tabTrigger>
+<scope>source.cmake</scope>
+</snippet>

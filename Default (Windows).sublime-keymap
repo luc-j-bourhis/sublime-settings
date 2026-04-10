@@ -1,0 +1,55 @@
+[
+	{
+        "keys": ["ctrl+shift+o"],
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "show_files": true}
+    },
+    { "keys": ["ctrl+g"], "command": "find_next" },
+	{ "keys": ["ctrl+shift+g"], "command": "find_prev" },
+	{ "keys": ["ctrl+shift+l"], "command": "show_overlay", 
+	  "args": {"overlay": "goto", "text": ":"} },
+
+	{
+		"keys": ["alt+ctrl+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+f"],
+		"command": "show_panel", 
+		"args": {"panel": "replace", "reverse": false},
+	},
+	{
+    	"keys": ["alt+m"],
+    	"command": "open_markdown_preview"
+	},
+	{ 
+		"keys": ["ctrl+k", "ctrl+t"], 
+		"command": "title_case" 
+	},
+	{
+		"keys": ["ctrl+right"], 
+		"command": "move_to", 
+		"args": {"to": "eol", "extend": false	},
+	},
+	{
+		"keys": ["ctrl+left"], 
+		"command": "move_to", 
+		"args": {"to": "bol", "extend": false	},
+	},
+]
