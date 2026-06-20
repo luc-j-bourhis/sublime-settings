@@ -1,7 +1,4 @@
 [
-	{ "keys": ["super+;", "a"], "command": "julia_run_all_tests" },
-	{ "keys": ["super+;", "c"], "command": "julia_run_chosen_tests" },
-	{ "keys": ["super+;", "l"], "command": "julia_run_last_tests" },
-	//{ "keys": ["super+alt+j"], "command": "julia_open_repl"},
+	{ "keys": ["super+;", "a"], "command": "julia_run_tests" },
 	{ "keys": ["super+j"], "command": "wrap_lines" },
 ]
