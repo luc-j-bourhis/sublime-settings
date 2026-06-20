@@ -1,0 +1,14 @@
+{
+    "JETLS": {
+        "enabled": true,
+        "command": ["env", "PATH=/Users/luc/.julia/bin", "jetls", "serve", "--socket=${port}"],
+        "tcp_port": 0,
+        "selector": "source.julia",
+        // For all configuration options see https://aviatesk.github.io/JETLS.jl/configuration/
+        "settings": {
+            // "jetls.full_analysis.debounce": 1.0,
+            // "jetls.full_analysis.auto_instantiate": true,
+            // "jetls.diagnostic.all_files": true,
+        }
+    }
+}
