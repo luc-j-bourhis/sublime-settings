@@ -1,0 +1,5 @@
+{
+    "julia_executable_path": "/Users/luc/.juliaup/bin/julia",
+    "julia.lint.missingrefs": "all",
+    "enabled": false,
+}
