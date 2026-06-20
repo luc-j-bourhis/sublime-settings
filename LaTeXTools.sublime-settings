@@ -4,4 +4,5 @@
     	//"options": ["--shell-escape"],
     },
     "keep_focus": false,
+    "preview_math_mode": "none",
 }
