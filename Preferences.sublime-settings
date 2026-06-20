@@ -27,4 +27,6 @@
 	"trim_trailing_white_space_on_save": "all",
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
+	"font_face": "SF Mono",
+	"font_size": 12,
 }
